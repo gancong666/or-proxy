@@ -1,6 +1,5 @@
 {
-  "regions": ["iad1"],
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://openrouter.ai" }
+    { "source": "/(.*)", "destination": "/api/proxy" }
   ]
 }
